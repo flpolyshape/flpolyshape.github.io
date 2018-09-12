@@ -6,11 +6,11 @@ If you have an idea for a workshop please submit it at click [here](https://goo.
 ### Workshops
 
 Here is a list of current workshop ideas:
-- [Android Development](#Android-Development)
-- [Android App Exploitation](#Android-App-Exploitation)
-- [Server/API Development](#Server/API-Development)
-- [Git Basics](#Git-Basics)
-- [Advanced Git Practices](#Advanced-Git-Practices)
+- [Android Development](#android-development)
+- [Android App Exploitation](#android-app-exploitation)
+- [Server/API Development](#server/api-development)
+- [Git Basics](#git-basics)
+- [Advanced Git Practices](#advanced-git-practices)
 
 
 ### Android Development
