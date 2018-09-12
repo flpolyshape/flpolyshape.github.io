@@ -43,19 +43,15 @@
   }
 	
   window.onload = function(){
-      i = 0;
-      list = getFromGithubAPI()
-      while (i < list.length) {
-	item = list[i]
+      getFromGithubAPI().forEach(item => {
 	getPage(item.name)
           .then(function(result) {
             insertPageLink(item.name.replace(".md", ""), result)
         })
         .catch(function() {
           // An error occurred
-        });  
-	i++;
-    }
+        });
+      });
   }
 </script>
 
