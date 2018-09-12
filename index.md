@@ -31,4 +31,4 @@ Here is a list of current workshop ideas:
 
 ### Support or Contact
 
-If you would like to contact the eboard for SHAPE please send an email to the [secretary](mailto:clong4947@floridapoly.edu).
+If you would like to contact the eboard for SHAPE please send an email to the secretary at [clong4947@floridapoly.edu](mailto:clong4947@floridapoly.edu).
