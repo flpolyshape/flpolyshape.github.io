@@ -52,7 +52,9 @@
   }
 	
   window.onload = function(){
-      getFromGithubAPI().forEach(item => {
+      getFromGithubAPI()
+      .filter(siteJSON => siteJSON.name.charAt(0) == "_" ? false : true)
+      .forEach(item => {
 	getPage(item.name)
           .then(result => {
 	    if (result != undefined) {
