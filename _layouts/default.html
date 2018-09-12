@@ -12,7 +12,7 @@
 </style>
 
 <script>
-  function GetFromGithubAPI(){
+  function getFromGithubAPI(){
     var Httpreq = new XMLHttpRequest(); // a new request
     Httpreq.open("GET",
 		 'https://api.github.com/repos/{{ site.github.owner_name }}/{{ site.github.owner_name }}.github.io/contents/',false);
@@ -43,14 +43,18 @@
   }
 	
   window.onload = function(){
-    getFromGithubAPI()
-    getPage("index.md")
-      .then(function(result) {
-        insertPageLink("index", result)
-      })
-      .catch(function() {
-        // An error occurred
-      });  
+      i = 0;
+      list = GetFromGithubAPI()
+      while (i < list.length) {
+	getPage("index.md")
+          .then(function(result) {
+            insertPageLink("index", result)
+        })
+        .catch(function() {
+          // An error occurred
+        });  
+	i++;
+    }
   }
 </script>
 
