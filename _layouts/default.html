@@ -33,6 +33,16 @@
     document.getElementById("pages").appendChild(a)
     document.getElementById("pages").appendChild(document.createElement("br"))
   }
+	
+  window.onload = function(){
+    getPage("index.md")
+      .then(function(result) {
+        insertPageLink("index", result)
+      })
+      .catch(function() {
+        // An error occurred
+      });  
+  }
 </script>
 
 <html lang="{{ site.lang | default: "en-US" }}">
