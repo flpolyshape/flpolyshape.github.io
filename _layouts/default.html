@@ -12,6 +12,21 @@
 </style>
 
 <script>
+  function getJSONP(url, onsuccess) {
+    var ud = '_' + +new Date,
+        script = document.createElement('script'),
+        head = document.getElementsByTagName('head')[0] 
+               || document.documentElement;
+
+    window[ud] = function(data) {
+        head.removeChild(script);
+        success && success(data);
+    };
+
+    script.src = url.replace('callback=?', 'callback=' + ud);
+    head.appendChild(script);
+  }
+
   function getPage(page) {
     return new Promise(function(resolve, reject) {
       var xhr = new XMLHttpRequest();
@@ -35,6 +50,11 @@
   }
 	
   window.onload = function(){
+    getJSONP('https://api.github.com/repos/{{ site.github.owner_name }}/{{ site.github.owner_name }}.github.io/contents/',
+      function(data){
+        console.log(data);
+      }
+    );
     getPage("index.md")
       .then(function(result) {
         insertPageLink("index", result)
