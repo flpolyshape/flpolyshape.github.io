@@ -45,12 +45,13 @@
   window.onload = function(){
       getFromGithubAPI().forEach(item => {
 	getPage(item.name)
-          .then(function(result) {
+          .then(result => {
             insertPageLink(item.name.replace(".md", ""), result)
-        })
-        .catch(function() {
-          // An error occurred
-        });
+          })
+          .catch(err => {
+            // An error occurred
+	    console.log("Failed to load page:", err)
+          });
       });
   }
 </script>
