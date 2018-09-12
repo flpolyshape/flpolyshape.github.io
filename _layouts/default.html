@@ -44,11 +44,12 @@
 	
   window.onload = function(){
       i = 0;
-      list = GetFromGithubAPI()
+      list = getFromGithubAPI()
       while (i < list.length) {
-	getPage("index.md")
+	item = list[i]
+	getPage(item.name)
           .then(function(result) {
-            insertPageLink("index", result)
+            insertPageLink(item.name.replace(".md", ""), result)
         })
         .catch(function() {
           // An error occurred
