@@ -3,7 +3,7 @@
 ## Welcome to SHAPE
 
 This website will be where all resources used in SHAPE workshops will be hosted. Feel free to explore.
-If you have an idea for a workshop please submit it at click [here](https://goo.gl/forms/ml36tPrbH5ZOfXXI3).
+If you have an idea for a workshop please submit it [here](https://goo.gl/forms/ml36tPrbH5ZOfXXI3).
 
 ### Workshops
 
@@ -24,6 +24,7 @@ A series of workshops where we go over the basics of designing and developing an
 
 ### Android App Exploitation
 #### Required Supplies
+- [Android Studio](https://developer.android.com/studio/)
 - An Android Device or Emulator
 - [jadx](https://github.com/skylot/jadx/releases) [(source code)](https://github.com/skylot/jadx)
 - [DIVA](https://payatu.com/wp-content/uploads/2016/01/diva-beta.tar.gz) [(source code)](https://github.com/payatu/diva-android)
