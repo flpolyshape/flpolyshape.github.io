@@ -1,4 +1,5 @@
-<meta pageName="Home">
+<meta id="pageMetaData" pageName="Home" />
+
 ## Welcome to SHAPE
 
 This website will be where all resources used in SHAPE workshops will be hosted. Feel free to explore.
