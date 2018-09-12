@@ -16,10 +16,19 @@ Here is a list of current workshop ideas:
 
 
 ### Android Development
+#### Required Supplies
+- Android Studio
+- An Android Device or Emulator
 #### Description
+A series of workshops where we go over the basics of designing and developing an Android app, and trying to implement some of the industry best practices along the way. We'll start out with some simple stuff, then begin to get more advanced.
 
 ### Android App Exploitation
+#### Required Supplies
+- An Android Device or Emulator
+- jadx
+- DIVA
 #### Description
+A series of workshops where we go over the basics of exploiting Android apps, and what not to do when designing your own app. These workshops will go pretty well if you're also in the Android Development workshops. We will be using DIVA, a learning tool designed to be exploitable. We will start with some of the more simple challenges, and work towards the later ones along the way.
 
 ### Server/API Development
 #### Description
