@@ -21,7 +21,7 @@
         resolve(doc.getElementById("pageMetaData").getAttribute("pagename"))
       };
       xhr.onerror = reject;
-      xhr.open('GET', "https://" + {{ site.github.owner_name }} +".github.io/" + page);
+      xhr.open('GET', "https://{{ site.github.owner_name }}.github.io/" + page);
       xhr.send();
     });
   }
