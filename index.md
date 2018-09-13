@@ -34,17 +34,23 @@ A series of workshops where we go over the basics of exploiting Android apps, an
 ### Server/API Development
 #### Required Supplies
 - Laptop
-
 #### Description
 A short series of workshops where we go over the basic structure of an API, introduce how RESTful APIs work, and teach you how to build your own API that responds to requests. If interest is high enough we will then teach how to integrate databases into your API. This kind of knowledge is critical if you want to work as a Backend Developer when you graduate college.
 
 ### Git Basics
+#### Required Supplies
+- Laptop or PC with nearly any modern OS on it
+- [git](https://git-scm.com/downloads) [(source code)](https://github.com/git/git)
 #### Description
+A workshop that will go over the basics of what git is, how and when to use it, and we will also teach you a few basic git commands. This workshop will be followed-up by "Advanced Git Practices".
 
 ### Advanced Git Practices
+#### Required Supplies
+- Laptop or PC with nearly any modern OS on it
+- [git](https://git-scm.com/downloads) [(source code)](https://github.com/git/git)
+- Workshop attendees are recommended to have attended "Git Basics" previously
 #### Description
-
+A workshop that will go over the more advanced features of git, such as branch switching, cherry-picking, handling merge confflicts, rebasing, reverting, and resetting. Attendees of this workshop are strongly recommended to have attended "Git Basics" before attending.
 
 ### Support or Contact
-
 If you would like to contact the eboard for SHAPE please send an email to the secretary at [clong4947@floridapoly.edu](mailto:clong4947@floridapoly.edu).
