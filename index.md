@@ -32,7 +32,11 @@ A series of workshops where we go over the basics of designing and developing an
 A series of workshops where we go over the basics of exploiting Android apps, and what not to do when designing your own app. These workshops will go pretty well if you're also in the Android Development workshops. We will be using DIVA, a learning tool designed to be exploitable. We will start with some of the more simple challenges, and work towards the later ones along the way.
 
 ### Server/API Development
+#### Required Supplies
+- Laptop
+
 #### Description
+A short series of workshops where we go over the basic structure of an API, introduce how RESTful APIs work, and teach you how to build your own API that responds to requests. If interest is high enough we will then teach how to integrate databases into your API. This kind of knowledge is critical if you want to work as a Backend Developer when you graduate college.
 
 ### Git Basics
 #### Description
