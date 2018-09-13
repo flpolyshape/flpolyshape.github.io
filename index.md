@@ -13,6 +13,7 @@ Here is a list of current workshop ideas:
 - [Server/API Development](#serverapi-development)
 - [Git Basics](#git-basics)
 - [Advanced Git Practices](#advanced-git-practices)
+- [Alexa Skills Development](#alexa-skills-development)
 
 
 ### Android Development
@@ -51,6 +52,13 @@ A workshop that will go over the basics of what git is, how and when to use it, 
 - Workshop attendees are recommended to have attended "Git Basics" previously
 #### Description
 A workshop that will go over the more advanced features of git, such as branch switching, cherry-picking, handling merge confflicts, rebasing, reverting, and resetting. Attendees of this workshop are strongly recommended to have attended "Git Basics" before attending.
+
+### Alexa Skills Development
+#### Required Supplies
+- Laptop or PC with nearly any modern OS on it
+- Basic JavaScript knowledge
+#### Description
+A workshop (or series of workshops) that will cover what goes into making an Alexa skill. We will be using Amazon's ASK (Alexa Skills Kit) and will be creating the skills in JavaScript.
 
 ### Support or Contact
 If you would like to contact the eboard for SHAPE please send an email to the secretary at [clong4947@floridapoly.edu](mailto:clong4947@floridapoly.edu).
