@@ -19,14 +19,14 @@ Here is a list of current workshop ideas:
 ### Android Development
 #### Required Supplies
 - [Android Studio](https://developer.android.com/studio/)
-- An Android Device or Emulator
+- An Android Device or [Emulator](https://www.bignox.com/)
 #### Description
 A series of workshops where we go over the basics of designing and developing an Android app, and trying to implement some of the industry best practices along the way. We'll start out with some simple stuff, then begin to get more advanced.
 
 ### Android App Exploitation
 #### Required Supplies
 - [Android Studio](https://developer.android.com/studio/)
-- An Android Device or Emulator
+- An Android Device or [Emulator](https://www.bignox.com/)
 - [jadx](https://github.com/skylot/jadx/releases) [(source code)](https://github.com/skylot/jadx)
 - [DIVA](https://payatu.com/wp-content/uploads/2016/01/diva-beta.tar.gz) [(source code)](https://github.com/payatu/diva-android)
 #### Description
